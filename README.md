@@ -1,3 +1,6 @@
+### Prerequesites
+- Install docker https://www.docker.com
+
 ### How to run
 
 1. Clone this repo
