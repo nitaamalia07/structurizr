@@ -1,0 +1,36 @@
+@startuml
+
+abstract class Reservation
+abstract ReservationController
+abstract DoctorSchedule 
+abstract Database
+
+ReservationController --> Reservation : mengelola data
+ReservationController --> DoctorSchedule : mengecek ketersediaan jadwal dokter
+Reservation --> Database : akan disimpan ke dalam 
+
+class ReservationController {
+  +createReservation(userId: int, doctorId: int, slotTime: datetime)
+  +cancelReservation(reservationId: int)
+  +rescheduleReservation(reservationId: int, newSlot: datetime)
+}
+class Reservation {
+  -id: int
+  -userId: int
+  -doctorId: int
+  -slotTime: datetime
+  -status: string
+}
+class DoctorSchedule {
+  -doctorId: int
+  -slotTime: datetime
+  -isAvailable: bool
+}
+class Database {
+ -id: int
+ - user_id: int
+ - doctor_id: int
+ - slot_time:
+}
+
+@enduml
