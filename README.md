@@ -10,3 +10,7 @@
 ### Mohon maaf 
 Mohon maaf karena vs code saya mengalami eror saat saya mau jalankan make run. 
 Saya membuat C4 Model ini secara manual menggunakan structurizr web dan plantuml.
+
+### Recording
+Link recording: 
+https://jam.dev/c/8283462f-3e5f-4031-bb61-67b48c66c182 
