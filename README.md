@@ -14,3 +14,4 @@ Saya membuat C4 Model ini secara manual menggunakan structurizr web dan plantuml
 ### Recording
 Link recording: 
 C1 https://jam.dev/c/72ee74fd-f5ac-4938-901d-25c607685602
+C2 https://jam.dev/c/f42911de-cf18-4ae6-bd80-851c855ff6a1
